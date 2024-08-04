@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(107, 137, 237);
+    font-family: Yekan;
+}
+
+.container {
+    width: 600px;
+    height: 360px;
+    background-color: gray;
+    margin: 100px auto;
+    position: relative;
+    border-radius: 10px 25px 10px 25px;
+    box-shadow: 0 0 40PX rgb(40, 40, 40);
+    background-color: rgb(235, 237, 241);
+}
+
+.card {
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    right: 30px;
+    top: -30px;
+    box-shadow: 0 0 40PX rgb(40, 40, 40);
+    border-radius: 10px 25px 10px 25px;
+    overflow: hidden;
+    background-color: rgb(107, 137, 237);
+}
+
+.card p {
+    padding-right: 10px;
+    margin: 4px;
+}
+
+.pic {
+    width: 100%;
+    width: 200px;
+    height: 200px;
+}
+
+.bio {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    text-align: justify;
+}
